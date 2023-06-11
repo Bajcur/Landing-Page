@@ -77,3 +77,34 @@ a {
     background-color: grey;
     width: 400px;
 }
+
+button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 8px;
+    font-size: 18px;
+    padding: 4px;
+    width: 130px;
+    border: none;
+}
+
+.bordered {
+    border: 2px solid #F9FAF8;
+}
+
+.signup {
+    background-color: #3882F6;
+    margin: 60px 80px;
+    border-radius: 8px;
+    padding: 30px 60px;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.call {
+    font-size: 22px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
