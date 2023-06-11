@@ -65,12 +65,15 @@ a {
 
 }
 .hero-text{
+    display: flex;
     flex-basis: 400px;
     flex-direction: column;
     text-align: left;
-    gap: 8px;   
+    gap: 8px;
+    max-height: 270px;
+    overflow: hidden;   
 }
 .hero-image {
     background-color: grey;
-    width: 500px;
+    width: 400px;
 }
