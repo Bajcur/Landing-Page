@@ -3,7 +3,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
-    min-height: 100vh;
+    text-align: center;
     display: flex;
     flex-direction: column;
   }
@@ -14,6 +14,7 @@ body {
     display: flex;
     flex-direction: column;
     padding: 0 80px;
+    
 }
 
 .hero-main {
@@ -46,8 +47,7 @@ a {
     text-decoration: none;
 }
 
-.nav,
-.hero {
+.nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -55,16 +55,22 @@ a {
 .nav {
     padding-top: 18px;
 }
+
 .hero {
-    padding: 60px 0;
-}
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    gap: 30px;
+    padding: 90px 0px;
 
-.hero-image,
-.hero-text {
-    width: 430px;
-    height: auto;
 }
-
+.hero-text{
+    flex-basis: 400px;
+    flex-direction: column;
+    text-align: left;
+    gap: 8px;   
+}
 .hero-image {
     background-color: grey;
+    width: 500px;
 }
